@@ -14,15 +14,9 @@
     
     	<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
 		<property name="url" value="jdbc:mysql://umj7-009.cafe24.com/eejsh08"></property>
-		<property name="username" value="eejsh08"></property>
-		<property name="password" value="hoho12!@"></property>
+		<property name="username" value=""></property>
+		<property name="password" value=""></property>
     
-    
-    
-<!-- 	<property name="url" value="jdbc:mysql://localhost:3306/test?useSSL=false"></property> -->
-<!-- 	<property name="username" value="root"></property> -->
-<!-- 	<property name="password" value="asdf1234"></property> -->
-
     </bean>	
 
 	<!-- mybatis -->
@@ -43,14 +37,3 @@
 
 
 </beans>
-		<!-- local -->
-<!-- 		<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close"> -->
-<!-- 		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property> -->
-<!-- 		<property name="url" value="jdbc:mysql://localhost:3306/webmail"></property> -->
-<!-- 		<property name="username" value="hong"></property> -->
-<!-- 		<property name="password" value="a1234"></property> -->
-		<!-- cafe24 -->
-<!-- 		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property> -->
-<!-- 		<property name="url" value="jdbc:mysql://umj7-009.cafe24.com/eejsh08"></property> -->
-<!-- 		<property name="username" value="eejsh08"></property> -->
-<!-- 		<property name="password" value="hoho12!@"></property> -->
